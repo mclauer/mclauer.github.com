@@ -75,7 +75,13 @@ html[xmlns] .clearfix { display: block; }
 
 
 /*End of Reset*/
-
-a{font-decoration:none;color:brown;}
-h1{color:brown;font-size:30px;font-family:copperplate;}
+body {background-color: #cec7c0;min-width:600px; max-width:1024px;} 
+a{text-decoration:none;color:#8a4115; hover:#5d2c0e;}
+h1{color:#8a4115;font-size:30px;font-family:copperplate; text-align:center;}
+nav{text-align:center; position:relative;}
+h2{font-weight:bold; letter-spacing:0.05em;left:310px; position:relative; bottom:390px;}
+p{line-height:1.4em; left:310px; position:relative; bottom:390px; padding-right:100px;}
+div{margin-top:40px;}
+section{padding: 10px;}
+li{display:inline; margin-right:10px;}
 
