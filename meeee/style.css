@@ -48,9 +48,13 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; }
+body { font-family:Helvetica; font-size:15px;background-color: #3a3a3a; color:white;}
 section#content { margin:0 auto; width:960px; padding:20px 0px; }
+a {text-decoration:none; color:#32aff7}
 
-h1 { font-size:48px; font-weight:bold; color:black; text-align:center; }
-h2 { font-size:36px; font-weight:bold; color:black; text-align:center; }
-p { padding-bottom:10px; }
+h1 { font-size:48px; font-weight:regular; text-align:center; padding-bottom: 10px;letter-spacing:0.05em; }
+h2 { font-size:24px; font-weight:regular; text-align:center; padding:10px; letter-spacing:0.05em;}
+p { padding-bottom:10px; text-align:center; line-height:1.4em;}
+img.align-left {display: block; margin:0px auto;}
+footer{padding:10px; text-align:right;}
+
