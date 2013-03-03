@@ -54,19 +54,23 @@ table {
 /* END RESET */
 
 body {background-color:#ebe6d8;font-family: helvetica; 
-	width:1024px; line-height:1.3em;}
+	width:1024px; line-height:1.3em; width:1024px;}
 a {text-decoration:none; color:#9c947f;}
 
 header{font-weight:bold; text-align:center; 
 		text-transform:uppercase; letter-spacing:.1em;
 		margin:10px; padding-bottom:10px;}
-#image {margin: 10px; float:left;}
+#image {margin-left: 10px; margin-right:10px; margin-bottom: 10px; float:left;}
 
 
 .ingredients{margin-bottom:10px;}
 .directions{text-indent: 5px; font-weight:bold;}
 h2{font-weight:bold; letter-spacing:.1em;}
-.prep {text-transform:uppercase;}
+section {padding-bottom:1em; margin-left:10px;}
+ul {padding-bottom:2em;}
+ol {padding-bottom:1em;}
+
+
 	
 
 
