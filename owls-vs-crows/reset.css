@@ -75,15 +75,25 @@ html[xmlns] .clearfix { display: block; }
 
 
 /*End of Reset*/
-body {background-color: #cec7c0;width:1000px; float:left; } 
+body {background-color: #cec7c0;width:1000px; margin:0auto;} 
 
-a{text-decoration:none;color:#8a4115; hover:#5d2c0e;}
+a{text-decoration:none;color:#8a4115; }
+a:hover {color:#5d2c0e;}
+
 h1{color:#8a4115;font-size:30px;font-family:copperplate; text-align:center;}
+
+header {position:relative;}
+
 nav{text-align:center; position:relative;}
+
 li{display:inline; margin-right:10px; margin-bottom:20px;}
+
 h2 {font-weight: bold;}
+
 img {height:300px; float:left; margin-right:10px;margin-bottom: 10px; padding-left:10px;}
+
 section {width:40%; float:left; padding-top:50px;}
+
 #footer {
  clear: both;
  position: relative;
@@ -92,4 +102,5 @@ section {width:40%; float:left; padding-top:50px;}
 padding-top:20px;
 padding-left:10px;
 }
+
 p {padding-left: 20px;}

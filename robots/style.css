@@ -50,3 +50,67 @@ table {
 	border-spacing: 0;
 }
 
+/*end of reset*/
+
+body {width:100%; font-family:helvetica; 
+	}
+	
+#site-wrapper {background-color:#ecf2d3; }
+
+header {position:relative; 
+	background-color:#ecf2d3; 
+	height:120px; 
+	width:960px; 
+	margin:0 auto; }
+
+header h1 {position:absolute; 
+	background-color:#744918;
+	top:50px;
+	left:-999px;}
+
+header nav {position: absolute; 
+	right:0px; top:0px;
+	}
+	
+a {text-decoration:none; color:#744918; font-size:14px;}
+	
+#menu-wrapper {background-color:#744918;}
+
+#main-menu {background-color:#744918; 
+	position:relative; 
+	height:40px;
+	width:960px;
+	margin:0 auto;}
+
+#main-menu li {float:left; 
+	padding-right:20px; 
+	padding-top:12px;
+	margin: 0px;
+	text-transform:uppercase;
+	}
+	
+#main-menu li a {color:white;}
+
+#page {float:left; padding-top:50px;
+	padding-bottom:50px;
+	padding-right:150px;
+	width:60%; width:400px;
+	line-height:1em;}
+
+#content {width: 960px; margin:0 auto;}
+
+#page h1 {font-weight:bold; font-size:50px; color:#744918; padding-bottom:20px;}
+
+#page h2 {font-weight:bold; font-size:20px; color:#744918;}
+
+#sidebar {float:left;
+	width:30%; background-color:green;}
+
+#site-footer { background-color:#744918;
+	position:relative; 
+	bottom:0;
+	width: 960px; margin:0 auto;}
+	
+#footer-wrapper {background-color:#744918; height: 100px; clear:both;}
+
+
