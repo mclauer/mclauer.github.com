@@ -82,14 +82,23 @@ body {
 	width:960px; 
 	font-family:adobe garamond pro;} 
 
-a{  
+a{
 	text-decoration:none;
 	color:#683a1d;
 	text-align:center;
 	 }
-	 
+	 	
+a:hover {color:#4196cb;}
 
+header nav {
+	position:absolute;
+	width:960px;
+	text-align:center;
+	margin:0 auto;
 
+	
+	}
+	
 h1{ position:relative;
 	color:#8a4115;
 	height:50px;
@@ -102,31 +111,17 @@ h1{ position:relative;
 	}
 	
 .top-link {
-	display:inline-block;
-	text-align:center;
+	display:inline;
 	text-transform:uppercase;
-	padding:10px;
-	margin:0 auto;
-	}
-	
-a:hover {color:#4196cb;}
-
-
-header nav {
-	position:absolute;
-	width:960px;
-	text-align:center;
-	border-top:2px solid black;
-	border-bottom:2px solid black;
-	}
-
-nav li{ 
-	display:inline; 
 	margin-right:10px; 
 	margin-bottom:20px;
 	text-align:center;
 	}
 
+#top {text-align:center;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	padding:10px;}
 
 h2 {font-weight: bold;
 	color:#683a1d;
@@ -162,8 +157,7 @@ section p {
  	width:960px;
 	font-size:14px;
 	text-align:center;
-	border-top:2px solid black
+	border-top:2px solid black;
 	
 }
-
 
