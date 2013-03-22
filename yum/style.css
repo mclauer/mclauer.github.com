@@ -53,21 +53,55 @@ table {
 
 /* END RESET */
 
-body {background-color:#ebe6d8;font-family: helvetica; 
-	width:1024px; line-height:1.3em; width:1024px;}
-a {text-decoration:none; color:#9c947f;}
+body {
+	background-color:#ebe6d8;
+	font-family: helvetica; 
+	width:960px; 
+	margin:0 auto;
+	line-height:1.3em; 
+	}
+	
+a {	text-decoration:none; 
+	color:#9c947f;}
 
-header{font-weight:bold; text-align:center; 
-		text-transform:uppercase; letter-spacing:.1em;
-		margin:10px; padding-bottom:10px;}
-#image {margin-left: 10px; margin-right:10px; margin-bottom: 10px; float:left;}
+header{
+	position:relative;
+	color:#8a4115;
+	height:40px;
+	font-size:36px;
+	width:960px;
+	margin:0 auto;
+	padding-top:20px;
+	letter-spacing:.05em;
+	text-align:center;
+	border-bottom:2px solid black;}
+	
+h1 {font-family:adobe garamond pro;
+}
 
+#image {
+	margin-left: 10px; 
+	margin-right:10px; 
+	margin-bottom: 10px; 
+	float:left;}
 
-.ingredients{margin-bottom:10px;}
-.directions{text-indent: 5px; font-weight:bold;}
-h2{font-weight:bold; letter-spacing:.1em;}
-section {padding-bottom:1em; margin-left:10px;}
+.ingredients{
+	margin-bottom:10px;}
+
+.directions{
+	text-indent: 5px; 
+	font-weight:bold;}
+
+h2{
+	font-weight:bold; 
+	letter-spacing:.1em;}
+
+section {
+	padding-bottom:1em; 
+	margin-left:10px;}
+
 ul {padding-bottom:2em;}
+
 ol {padding-bottom:1em;}
 
 
