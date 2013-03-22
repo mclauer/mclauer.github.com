@@ -55,7 +55,7 @@ table {
 
 body {
 	background-color:#ebe6d8;
-	font-family: helvetica; 
+	font-family: adobe garamond pro; 
 	width:960px; 
 	margin:0 auto;
 	line-height:1.3em; 
@@ -80,7 +80,7 @@ h1 {font-family:adobe garamond pro;
 }
 
 #image {
-	margin-left: 10px; 
+	margin-top: 20px;
 	margin-right:10px; 
 	margin-bottom: 10px; 
 	float:left;}
@@ -92,7 +92,7 @@ h1 {font-family:adobe garamond pro;
 	text-indent: 5px; 
 	font-weight:bold;}
 
-h2{
+h2{ padding-top:20px;
 	font-weight:bold; 
 	letter-spacing:.1em;}
 
