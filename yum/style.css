@@ -94,7 +94,6 @@ h1 {font-family:adobe garamond pro;
 
 .directions{
 	float:left;
-	width
 	text-indent: 5px; 
 	font-weight:bold;}
 
@@ -105,13 +104,22 @@ h2{ padding-top:20px;
 section {
 	padding-bottom:1em; 
 	}
+ol li {padding-bottom:15px;}
 
+ul {padding-bottom:1em; 
+	width:40%;}
 
-ul {padding-bottom:1em;}
+ol {padding-bottom:1em;
+	width:51%;
+	float:left;
+	padding-right:200px;
+	padding-bottom:20px;
+	}
 
-ol {padding-bottom:1em;}
-
-#prep {border-bottom:2px solid black;}
+#prep {
+	padding-bottom:40px;
+	border-bottom:2px solid black;
+	}
 
 .footer {
 	position:relative;
