@@ -81,14 +81,18 @@ h1 {font-family:adobe garamond pro;
 
 #image {
 	margin-top: 20px;
-	margin-right:10px; 
+	margin-right:20px; 
+	
 	margin-bottom: 10px; 
-	float:left;}
+	float:left;
+	}
 
 .ingredients{
 	margin-bottom:10px;}
 
 .directions{
+	float:left;
+	width
 	text-indent: 5px; 
 	font-weight:bold;}
 
@@ -98,12 +102,17 @@ h2{ padding-top:20px;
 
 section {
 	padding-bottom:1em; 
-	margin-left:10px;}
+	}
 
-ul {padding-bottom:2em;}
+ul {padding-bottom:1em;}
 
 ol {padding-bottom:1em;}
 
+
+#footer {position:absolute;
+	bottom:0px;
+	right:0px;
+	}
 
 	
 
