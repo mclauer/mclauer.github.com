@@ -1,0 +1,80 @@
+header {position:fixed; 
+		width:100%;
+		background-color:white;
+		float:left;
+}
+
+#logo {position:relative;
+float:left;}
+
+h1 {position:relative;
+	
+}
+
+#name {font-weight:mission gothic light;}
+
+#description {font-weight:bold;}
+
+#pagebody {padding-top:15em;
+
+}
+
+body
+	{
+	margin: 0 auto;
+	height:100%;
+	width: 960px;
+	padding: 0px;
+	font-family: Mission Gothic,Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background-color: white;
+	color: black;
+	}
+	
+a{
+	text-decoration:none;
+	color:black;
+	text-align:center;
+	display:inline;
+	
+	}
+	
+a:hover {color:#37a1e5;
+
+}
+	
+	
+nav {
+
+	margin:0;
+	padding:0;
+}
+nav li {
+	display:inline;
+	margin:0;
+	padding:1em 4em 1em 4em;
+	float:left;
+	text-transform:uppercase;
+	border-right:.2em #dedfdf solid;
+	height:1em;}
+
+nav li:last-child {
+ border-right: none;
+}
+
+
+
+footer {	
+	clear: both;
+ 	position: absolute;
+ 	padding-bottom:3em;
+ 	padding-right:2em;
+ 	padding-top:.7em;
+ 	height: 2em;
+ 	width:960px;
+ 	background-color:white;
+ 	text-align:right;
+
+
+}
