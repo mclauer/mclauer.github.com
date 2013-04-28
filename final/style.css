@@ -5,19 +5,47 @@ header {position:fixed;
 }
 
 #logo {position:relative;
-float:left;}
+	   float:left;}
 
 h1 {position:relative;
 	
 }
 
-#name {font-weight:mission gothic light;}
+#name {
+	font-family:Raleway, sans-serif;
+	font-weight:300;
+	font-size: 37px;
+	position:absolute;
+	padding-left:133px;}
 
-#description {font-weight:bold;}
+#description {
+	font-family:Raleway, sans-serif;
+	font-weight:700;
+	font-size: 37px;
+	padding-top:50px;
+}
 
 #pagebody {padding-top:15em;
+}
+
+#splash {float:left;
+		padding-top:10em;}
+		
+.splashimage {float:left;
+			  padding-left:1.3em;
+			  padding-bottom:1.3em;
+}
+
+.gallery {padding-top:.8em;
+		  padding-bottom:1em;
+		  margin-right:1.3em;
+		  float:left;}
+		  
+.label {font-weight:bold; float:left;
+width:100%;
 
 }
+
 
 body
 	{
@@ -25,9 +53,8 @@ body
 	height:100%;
 	width: 960px;
 	padding: 0px;
-	font-family: Mission Gothic,Helvetica, sans-serif;
+	font-family:Raleway, sans-serif;
 	font-size: 16px;
-	font-weight: normal;
 	background-color: white;
 	color: black;
 	}
@@ -65,16 +92,34 @@ nav li:last-child {
 
 
 
-footer {	
-	clear: both;
- 	position: absolute;
+
+#lastsection {padding-bottom:2em;
+}
+
+#indexfooter 	
+	{clear: both;
+ 	position: relative;
+ 	bottom:0;
  	padding-bottom:3em;
  	padding-right:2em;
  	padding-top:.7em;
+ 	margin-top:1.5em;
+ 	height: 2em;
+ 	width:960px;
+ 	background-color:white;
+ 	text-align:right;}
+
+footer {	
+	clear: both;
+ 	position: relative;
+ 	bottom:0;
+ 	padding-bottom:3em;
+ 	padding-right:2em;
+ 	padding-top:.7em;
+ 	margin-top:1.5em;
  	height: 2em;
  	width:960px;
  	background-color:white;
  	text-align:right;
-
-
+ 	border-top:.2em #dedfdf solid;
 }
