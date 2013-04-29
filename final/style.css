@@ -34,11 +34,9 @@ h1 {position:relative;
 		
 		}
 		
-#fineart {width:27.1%; float:left; padding-left:1em; padding-right:1.5em;}
 
 
 
-#design {width:27.1%; float:left; padding-right:1.5em;}
 
 
 #about {width:37.9%; float:left;padding-bottom:1.5em;}
@@ -47,9 +45,108 @@ h1 {position:relative;
 #resume {width:37.9%;float:left;padding-bottom:2em;}
 
 
+
+.img-wrapper {
+	position:relative;
+	height:396px;
+	width:261px;
+	float:left; 
+	padding-left:1em; 
+	padding-right:.5em;
+
+}
+
+.img-wrappertwo {
+	position:relative;
+	height:396px;
+	width:261px;
+	float:left; 
+	padding-left:1em; 
+	padding-right:.5em;
+
+}
+
+.img-wrapperthree {
+	position:relative;
+	height:185px;
+	width:362px;
+	float:left; 
+	padding-left:1em; 
+	padding-right:.5em;}
 	
-	
-	
+.img-wrapperfour {
+	position:relative;
+	height:185px;
+	width:362px;
+	float:left; 
+	padding-left:1em; 
+	padding-right:.5em;
+	padding-top:1.5em;}
+
+
+
+
+.img-text {
+position:absolute;
+bottom:0px;
+text-align:center;
+font-size:48px;
+font-family:Raleway, sans-serif;
+font-weight:700;
+color:black;
+background-color:white;
+width:261px;
+height:396px;
+opacity:0;
+
+}
+
+.img-texttwo {
+position:absolute;
+bottom:0px;
+text-align:center;
+font-size:48px;
+font-family:Raleway, sans-serif;
+font-weight:700;
+color:black;
+background-color:white;
+width:362px;
+height:185px;
+opacity:0;
+
+}
+
+.img-textthree {
+position:absolute;
+bottom:0px;
+text-align:center;
+font-size:48px;
+font-family:Raleway, sans-serif;
+font-weight:700;
+color:black;
+background-color:white;
+width:362px;
+height:185px;
+opacity:0;
+
+}
+
+.img-texttwo:hover {opacity:.5;}
+.img-textthree:hover {opacity:.5;}
+.img-text:hover {opacity:.5;}
+
+
+.finearttitle {margin-top:170px;}
+
+.designtitle {margin-top:170px;}
+
+.abouttitle {margin-top:70px;}
+
+.resumetitle {margin-top:70px;}
+
+
+
+
 
 
 
@@ -135,8 +232,8 @@ nav li:last-child {
  	bottom:0;
  	padding-bottom:3em;
  	padding-right:2em;
- 	padding-top:.7em;
- 	margin-top:1.5em;
+ 	padding-top:1.5em;
+ 	margin-top:2em;
  	height: 2em;
  	width:960px;
  	background-color:white;
