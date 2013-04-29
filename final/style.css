@@ -206,6 +206,7 @@ nav li {
 	border-right:.2em #dedfdf solid;
 	height:1em;
 	font-size:16px;
+	font-weight:500;
 	}
 
 nav li:last-child {
