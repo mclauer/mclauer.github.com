@@ -2,16 +2,20 @@ header {position:fixed;
 		width:100%;
 		background-color:white;
 		float:left;
+		z-index:5;
 }
 
 
 #logo {position:relative;
 	   float:left;
+	   z-index:5;
 	}
 
 h1 {position:relative;
+
 	
 }
+
 
 #name {
 	font-family:Raleway, sans-serif;
@@ -79,18 +83,19 @@ h1 {position:relative;
 
 .img-wrappergallery {
 	position:relative;
-	height:138px;
+	height:140px;
 	width:200px;
 	float:left; 
 	padding-top:.8em;
 	padding-bottom:1em;
-	margin-right:1.6em;	
+	margin-right:2em;	
 
 }
 
 .img-textgallery {
 	position:absolute;
 	bottom:0px;
+	margin-bottom:.8em;
 	text-align:center;
 	font-size:24px;
 	font-family:Raleway, sans-serif;
@@ -177,11 +182,14 @@ h1 {position:relative;
 .fancybox {padding-top:.8em;
 		  padding-bottom:1em;
 		  margin-right:1.6em;
-		  float:left;
+		
 		 }
 		  
-.label {font-weight:bold; float:left;
-width:100%; letter-spacing:.98px;
+.label {font-weight:bold; 
+		float:left;
+		width:100%; 
+		letter-spacing:.98px;
+		text-align:left;
 
 }
 
