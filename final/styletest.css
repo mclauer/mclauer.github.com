@@ -1,26 +1,3 @@
-.img-wrapper {
-	position:relative;
-	height:396px;
-	width:261px;
 
-}
 
-.img-text {
-position:absolute;
-bottom:0px;
-text-align:center;
-font-size:48px;
-font-family:Raleway, sans-serif;
-color:black;
-background-color:white;
-width:261px;
-height:396px;
-opacity:0;
 
-}
-
-.finearttitle {margin-top:170px;}
-
-.img-text:hover {
-opacity:.5;
-}

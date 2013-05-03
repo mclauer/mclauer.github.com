@@ -4,8 +4,10 @@ header {position:fixed;
 		float:left;
 }
 
+
 #logo {position:relative;
-	   float:left;}
+	   float:left;
+	}
 
 h1 {position:relative;
 	
@@ -16,7 +18,8 @@ h1 {position:relative;
 	font-weight:300;
 	font-size: 37px;
 	position:absolute;
-	padding-left:133px;}
+	padding-left:133px;
+}
 
 #description {
 	font-family:Raleway, sans-serif;
@@ -27,6 +30,7 @@ h1 {position:relative;
 }
 
 #pagebody {padding-top:15em;
+
 }
 
 #splash {
@@ -73,7 +77,32 @@ h1 {position:relative;
 	padding-right:.5em;
 	padding-top:1.5em;}
 
+.img-wrappergallery {
+	position:relative;
+	height:138px;
+	width:200px;
+	float:left; 
+	padding-top:.8em;
+	padding-bottom:1em;
+	margin-right:1.6em;	
 
+}
+
+.img-textgallery {
+	position:absolute;
+	bottom:0px;
+	text-align:center;
+	font-size:24px;
+	font-family:Raleway, sans-serif;
+	font-weight:700;
+	color:black;
+	background-color:white;
+	width:200px;
+	height:140px;
+	opacity:0;
+	}
+
+.img-textgallery:hover {opacity:.5;}
 
 
 .img-text {
@@ -90,6 +119,9 @@ h1 {position:relative;
 	opacity:0;
 
 }
+
+
+
 
 .img-texttwo {
 	position:absolute;
@@ -140,10 +172,13 @@ h1 {position:relative;
 
 #splashlogo {position:absolute;}
 
-.gallery {padding-top:.8em;
+
+		  
+.fancybox {padding-top:.8em;
 		  padding-bottom:1em;
 		  margin-right:1.6em;
-		  float:left;}
+		  float:left;
+		 }
 		  
 .label {font-weight:bold; float:left;
 width:100%; letter-spacing:.98px;
@@ -238,7 +273,7 @@ footer {
  	position: relative;
  	bottom:0;
  	padding-bottom:3em;
- 	padding-right:3em;
+ 	padding-right:3.5em;
  	padding-top:.7em;
  	margin-top:1.5em;
  	height: 2em;
