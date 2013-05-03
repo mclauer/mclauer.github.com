@@ -11,9 +11,12 @@ header {position:fixed;
 	   z-index:5;
 	}
 
-h1 {position:relative;
+h1 {position:relative;}
 
 	
+h2 {font-size:18px;
+	padding-bottom:4px;
+	border-bottom:.2em #dedfdf solid;
 }
 
 
@@ -209,6 +212,17 @@ h1 {position:relative;
 			   font-weight:500;}
 			   
 #biotitle {letter-spacing:5px;}
+
+
+.column1 {float:left;
+		  width:45%;
+		  padding-right:50px;}
+
+.column2 {float:left;
+		  width:45%;
+		  padding-left:10px;
+		  border-left:
+		  line-height:20px; }
 
 
 body
