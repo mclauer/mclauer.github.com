@@ -116,7 +116,7 @@ h1 {position:relative;
 	text-align:center;
 	font-size:48px;
 	font-family:Raleway, sans-serif;
-	font-weight:700;
+	font-weight:300;
 	color:black;
 	background-color:white;
 	width:261px;
@@ -134,7 +134,7 @@ h1 {position:relative;
 	text-align:center;
 	font-size:48px;
 	font-family:Raleway, sans-serif;
-	font-weight:700;
+	font-weight:300;
 	color:black;
 	background-color:white;
 	width:362px;
@@ -149,18 +149,18 @@ h1 {position:relative;
 	text-align:center;
 	font-size:48px;
 	font-family:Raleway, sans-serif;
-	font-weight:700;
+	font-weight:300;
 	color:black;
 	background-color:white;
-	width:362px;
+	width:363px;
 	height:185px;
 	opacity:0;
 
 }
 
-.img-texttwo:hover {opacity:.5;}
-.img-textthree:hover {opacity:.5;}
-.img-text:hover {opacity:.5;}
+.img-texttwo:hover {opacity:.7;}
+.img-textthree:hover {opacity:.7;}
+.img-text:hover {opacity:.7;}
 
 
 .finearttitle {margin-top:170px;}
